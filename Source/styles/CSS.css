@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+
+body {
+    font-family: Poppins, Roboto;
+    background: linear-gradient(180deg, #ffffff 0%, #0d0d0d 99%);
+}
+
+.nav-link {
+    color: rgb(83, 83, 83);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(128, 128, 128);
+}
+
+.navbar-brand img {
+    width: 50px;
+
+}
+
+.navbar-toggler {
+    background-color: rgb(83, 83, 83);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: linear-gradient(0deg, #ffffff 0%, #000000 99%);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.sidebar {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, #ffffff 0%, #000000 99%);
+}
+
+
+
+.slide-text {
+    color: rgb(83, 83, 83);
+    margin: auto auto;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.carousel-item>.img {
+    width: 100%;
+}
+
+.zxc {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.bttn {
+    padding-top: 100px;
+}
+
+.called {
+    animation: myAnim 2s linear 1s infinite normal forwards;
+}
+
+.cxz {
+    color: #ffffff;
+}
+
+.FFcontacts {
+    display: flex;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
