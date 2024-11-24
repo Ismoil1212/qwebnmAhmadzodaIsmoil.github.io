@@ -1,1 +1,1 @@
-# qwebnmAhmadzodaIsmoil.github.io
+# qwebnmAhmadzodaIsmoil
